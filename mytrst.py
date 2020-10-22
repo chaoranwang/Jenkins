@@ -13,7 +13,7 @@ def numb(s):
     else:
         result[i]=1
  return result
-fu = "aaaannnnnnffieeeefasdnnnn"
+fu = input("Please input a new string")
 f = numb(fu)
 n = list(f.values())
 n.sort()
